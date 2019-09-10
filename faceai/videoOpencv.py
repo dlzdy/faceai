@@ -8,7 +8,7 @@ def discern(img):
     grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # OpenCV人脸识别分类器
     classifier = cv2.CascadeClassifier(
-        "C:\Python36\Lib\site-packages\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
+        "D:\Python36\Lib\site-packages\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
     )
     color = (0, 255, 0)  # 定义绘制颜色
     # 调用识别人脸

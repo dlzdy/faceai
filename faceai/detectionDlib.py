@@ -11,7 +11,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 detector = dlib.get_frontal_face_detector()
 # 获取人脸检测器
 predictor = dlib.shape_predictor(
-    "C:\\Python36\\Lib\\site-packages\\dlib-data\\shape_predictor_68_face_landmarks.dat"
+    "D:\\Python36\\Lib\\site-packages\\dlib-data\\shape_predictor_68_face_landmarks.dat"
 )
 
 dets = detector(gray, 1)
