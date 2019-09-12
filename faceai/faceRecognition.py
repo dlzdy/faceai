@@ -3,6 +3,7 @@
 import cv2
 import face_recognition
 import os
+import time
 
 path = "img/face_recognition"  # 模型数据图片目录
 cap = cv2.VideoCapture(0)
